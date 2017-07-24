@@ -12,7 +12,7 @@ def get_logger(card_num, struct_time):
 
     file_name = struct_time
     file_path = os.path.join(USER_DIR_FOLDER, card_num, 'record')
-    os.system("mkdir -p %s" % file_path)
+    os.system("mkdir %s" % file_path)
     file_handler = logging.FileHandler(
         os.path.join(file_path, file_name),
         encoding='utf-8'
