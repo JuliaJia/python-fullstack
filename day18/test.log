@@ -1,0 +1,8 @@
+Mon,24 Jul 2017 09:09:28 loggin.py[line:14] DEBUG debug message
+Mon,24 Jul 2017 09:09:28 loggin.py[line:15] INFO info message
+Mon,24 Jul 2017 09:09:28 loggin.py[line:16] WARNING warning message
+Mon,24 Jul 2017 09:09:28 loggin.py[line:17] ERROR error message
+Mon,24 Jul 2017 09:09:28 loggin.py[line:18] CRITICAL critical message
+2017-07-24 09:21:14,254 - root - WARNING - logger warning message
+2017-07-24 09:21:14,254 - root - ERROR - logger error message
+2017-07-24 09:21:14,254 - root - CRITICAL - logger critical message
