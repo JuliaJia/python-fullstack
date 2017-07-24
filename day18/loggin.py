@@ -32,7 +32,9 @@ ch.setFormatter(formatter)
 logger.addHandler(fh) #logger对象可以添加多个fh和ch对象
 logger.addHandler(ch)
 
+
 #step5：设置日志信息
+logger.setLevel(logging.DEBUG)   #设置日志level效果等同于logging.basicConfig(level=logging.DEBUG)
 logger.debug('logger debug message')
 logger.info('logger info message')
 logger.warning('logger warning message')
