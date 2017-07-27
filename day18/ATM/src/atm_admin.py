@@ -30,32 +30,62 @@ def atm_log(account,level,message):
     elif level == 'error':
         logging.error(message)
 
+def checkadminaccount(account):
+    account_list = readfile("%s\\admin_account_list.txt" % DOC_PATH)
+    if account in account_list:
+        return False
+    else:
+        return True
 
-def checkaccount(account):
+def adduseraccount():
+    account = input("Enter admin account:")
+    check = checkadminaccount(account)
+    while check == False:
+        account = input("This account is exist,try again:")
+        check = checkadminaccount(account)
+    password1 = input("Enter password:")
+    password2 = input("Enter password again:")
+    while password2 != password1:
+        print("The two passwords do not match!")
+        password1 = input("Enter password:")
+        password2 = input("Enter password again:")
+    password = password1
+    config = ConfigParser()
+    config['DEFAULT'] = {'ACCOUNT': account}
+    config[account]['ACCOUNT'] = account
+    config[account]['PASSWORD'] = password
+    account_file = DOC_PATH + "\\admin_account_info\\" + account + '_info'
+    with open(account_file,'w') as configfile:
+        config.write(configfile)
+    message = 'Create this admin account(%s)!' % account
+    atm_log(account,'warning',message)
+    print(message)
+
+def checkuseraccount(account):
     account_list = readfile("%s\\account_list.txt" % DOC_PATH)
     if account in account_list:
         return False
     else:
         return True
 
-def createaccount():
+def createuseraccount():
     account = '6225'
     count = 12
     for i in range(count):
         account += str(random.randrange(0,10))
-    check = checkaccount(account)
+    check = checkuseraccount(account)
     if check == True:
         return account
     else:
         return False
 
-def addaccount():
+def adduseraccount():
     INIT_MONEY = "15000.0"
-    account = createaccount()
-    check = checkaccount(account)
+    account = createuseraccount()
+    check = checkuseraccount(account)
     while check == False:
-        account = createaccount()
-        check = checkaccount(account)
+        account = createuseraccount()
+        check = checkuseraccount(account)
     config = ConfigParser()
     config['DEFAULT'] = {'INIT_MONEY':INIT_MONEY,
                          'ACCOUNT':account,
@@ -68,6 +98,7 @@ def addaccount():
     config[account]['USE_MONEY'] = "0"
     config[account]['OVER_MONEY'] = INIT_MONEY
     config[account]['FREEZE_STATUS'] = "False"
+    config[account]['PASSWORD'] = "88888888"
     account_file = DOC_PATH + "\\account_info\\" + account + '_info'
     with open(account_file,'w') as configfile:
         config.write(configfile)
@@ -75,7 +106,7 @@ def addaccount():
     atm_log(account,'warning',message)
     print(message)
 
-def changemoney(account,newmoney):
+def changeusermoney(account,newmoney):
     account_file = DOC_PATH + "\\account_info\\" + account + '_info'
     config = ConfigParser()
     config.read(account_file)
@@ -95,7 +126,7 @@ def changemoney(account,newmoney):
 
     # return config_group
 
-def freeze_account(account):
+def freezeuseraccount(account):
     account_file = DOC_PATH + "\\account_info\\" + account + '_info'
     config = ConfigParser()
     config.read(account_file)
@@ -116,5 +147,5 @@ def freeze_account(account):
 
 # changemoney("6225034329348771","20000")
 
-freeze_account("6225189517912256")
+# freeze_account("6225189517912256")
 # changemoney('6225189517912256','20000')

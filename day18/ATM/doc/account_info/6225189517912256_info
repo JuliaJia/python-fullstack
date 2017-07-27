@@ -10,4 +10,4 @@ now_money = 20000.0
 use_money = 0
 over_money = 20000.0
 freeze_status = True
-
+password = "88888888"
