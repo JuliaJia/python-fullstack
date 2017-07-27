@@ -1,0 +1,13 @@
+[DEFAULT]
+init_money = 15000.0
+account = 6225230739890461
+repay_date = 10
+bill_date = 22
+interest = 0.0005
+
+[6225230739890461]
+now_money = 15000.0
+use_money = 0
+over_money = 15000.0
+freeze_status = False
+
