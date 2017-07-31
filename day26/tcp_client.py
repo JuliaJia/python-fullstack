@@ -1,16 +1,16 @@
 from socket import *
 
-ADDR = ("127.0.0.1",7000)
+ADDR = ("127.0.0.1",7500)
 ssClient = socket()
 ssClient.connect(ADDR)
 while True:
     data = input('> ')
     if not data:
         break
-    ssClient.send(data)
-    data = ssClient.recv(1024)
+    ssClient.send(data.encode())
+    data = ssClient.recv(1024).decode()
     if not data:
         break
-    print(data.decode('uft-8'))
+    print(data)
 
 ssClient.close()
