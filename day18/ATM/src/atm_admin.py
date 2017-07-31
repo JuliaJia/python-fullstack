@@ -37,7 +37,7 @@ def checkadminaccount(account):
     else:
         return True
 
-def adduseraccount():
+def addadminaccount():
     account = input("Enter admin account:")
     check = checkadminaccount(account)
     while check == False:
@@ -52,6 +52,7 @@ def adduseraccount():
     password = password1
     config = ConfigParser()
     config['DEFAULT'] = {'ACCOUNT': account}
+    config[account] = {}
     config[account]['ACCOUNT'] = account
     config[account]['PASSWORD'] = password
     account_file = DOC_PATH + "\\admin_account_info\\" + account + '_info'
@@ -143,7 +144,7 @@ def freezeuseraccount(account):
         atm_log(account,'error',message)
         print(message)
 
-# addaccount()
+addadminaccount()
 
 # changemoney("6225034329348771","20000")
 
