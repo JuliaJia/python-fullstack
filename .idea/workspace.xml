@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51153b83-41cc-4a2a-804f-92a1f6d26b0f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/CMDB.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/CMDB/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day26/tcp_client.py" afterPath="$PROJECT_DIR$/day26/tcp_client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day26/tcp_server.py" afterPath="$PROJECT_DIR$/day26/tcp_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day40/web1.py" afterPath="$PROJECT_DIR$/day40/web1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +26,7 @@
     <SUITE FILE_PATH="coverage/python_fullstack$login.coverage" NAME="login Coverage Results" MODIFIED="1501143000842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/ATM/src" />
     <SUITE FILE_PATH="coverage/python_fullstack$tcp_client.coverage" NAME="tcp_client Coverage Results" MODIFIED="1501484178971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
     <SUITE FILE_PATH="coverage/python_fullstack$get_logger.coverage" NAME="get_logger Coverage Results" MODIFIED="1500873080623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
-    <SUITE FILE_PATH="coverage/python_fullstack$web1.coverage" NAME="web1 Coverage Results" MODIFIED="1501480245112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
+    <SUITE FILE_PATH="coverage/python_fullstack$web1.coverage" NAME="web1 Coverage Results" MODIFIED="1501493220388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/python_fullstack$configparser.coverage" NAME="configparser Coverage Results" MODIFIED="1500875703425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/python_fullstack$Re.coverage" NAME="Re Coverage Results" MODIFIED="1501121416450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/python_fullstack$loggin.coverage" NAME="loggin Coverage Results" MODIFIED="1500870351920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
@@ -80,21 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day40/web1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day26/tcp_server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -106,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/day26/tcp_client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,9 +189,9 @@
         <option value="$PROJECT_DIR$/day18/ATM/src/login.py" />
         <option value="$PROJECT_DIR$/day18/ATM/src/atm_admin.py" />
         <option value="$PROJECT_DIR$/day18/ATM/src/atm.py" />
-        <option value="$PROJECT_DIR$/day40/web1.py" />
         <option value="$PROJECT_DIR$/day26/tcp_server.py" />
         <option value="$PROJECT_DIR$/day26/tcp_client.py" />
+        <option value="$PROJECT_DIR$/day40/web1.py" />
       </list>
     </option>
   </component>
@@ -243,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day26" />
+              <option name="myItemId" value="day40" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tcp_server">
+  <component name="RunManager" selected="Python.web1">
     <configuration default="false" name="atm_admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -532,9 +537,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tcp_server" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tcp_client" />
-        <item index="2" class="java.lang.String" itemvalue="Python.web1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.web1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tcp_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tcp_client" />
         <item index="3" class="java.lang.String" itemvalue="Python.login" />
         <item index="4" class="java.lang.String" itemvalue="Python.atm_admin" />
       </list>
@@ -573,11 +578,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3068592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3068592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33393502" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -955,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day40/web1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day18/ATM/doc/account_info/6225189517912256_info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -974,7 +971,7 @@
     <entry file="file://$PROJECT_DIR$/day26/tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -982,10 +979,18 @@
     <entry file="file://$PROJECT_DIR$/day26/tcp_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/web1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
