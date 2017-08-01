@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51153b83-41cc-4a2a-804f-92a1f6d26b0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/CMDB.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/CMDB/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/CMDB/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/CMDB/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/CMDB/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django/CMDB/manage.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/Matrix/.idea/workspace.xml" afterPath="$PROJECT_DIR$/django/Matrix/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/Matrix/CMDB/models.py" afterPath="$PROJECT_DIR$/django/Matrix/CMDB/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -575,6 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="646" y="228" width="1049" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22731906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
