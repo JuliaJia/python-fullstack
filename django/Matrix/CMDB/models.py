@@ -14,7 +14,7 @@ class Asset(models.Model):
     enableDate = models.DateField(blank=True,null=True)
     departmentName = models.ForeignKey("department")
     ownerName = models.ForeignKey("owner")
-    businessName = models.ManyToOneRel("business",blank=True)
+    businessName = models.ManyToManyField("business",blank=True)
     areaName = models.ForeignKey("area")
     networkAreaName = models.ForeignKey("networkArea")
     # idcName = models.ForeignKey("IDC")
@@ -165,7 +165,7 @@ class NetworkDevice(models.Model):
     )
     deviceType = models.SmallIntegerField(choices=deviceChoices)
     coreChoices = (
-        (0,"是")
+        (0,"是"),
         (1,"否")
     )
     core = models.SmallIntegerField(choices=coreChoices)
@@ -274,7 +274,7 @@ class area(models.Model):
 
 class networkArea(models.Model):
     networkAreaChoice = (
-        (0,'DCN')
+        (0,'DCN'),
     )
     networkArea = models.SmallIntegerField(choices=networkAreaChoice)
 

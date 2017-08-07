@@ -19,5 +19,6 @@ from CMDB import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^userInfor/', views.userInfor),
+    url(r'^userInfor/index$', views.index),
+    url(r'^userInfor/cmdb$', views.cmdb)
 ]
