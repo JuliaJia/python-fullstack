@@ -237,10 +237,10 @@ class DataBase(models.Model):
     statusType = models.SmallIntegerField(choices=statusChoice)
     systemName = models.CharField(max_length=128, verbose_name="业务系统")
     VIP = models.GenericIPAddressField(unique=True,blank=True,null=True)
-    masterIP = models.GenericIPAddressField(unique=True)
-    slaveIP = models.GenericIPAddressField(unique=True)
-    masterPort = models.PositiveIntegerField("Master端口")
-    slavePort = models.PositiveIntegerField("Slave端口")
+    mainIP = models.GenericIPAddressField(unique=True)
+    subordinateIP = models.GenericIPAddressField(unique=True)
+    mainPort = models.PositiveIntegerField("Main端口")
+    subordinatePort = models.PositiveIntegerField("Subordinate端口")
 
 
 
